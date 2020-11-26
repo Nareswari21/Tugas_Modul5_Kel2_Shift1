@@ -61,7 +61,7 @@ export default class BasicTable extends Component{
     componentDidMount() { 
         axios({ 
             method: "get", 
-            url: "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline", 
+            url: "https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline", 
             headers: { 
                 accept: "*/*", 
             }, 
